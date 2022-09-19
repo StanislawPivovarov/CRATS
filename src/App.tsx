@@ -1,12 +1,17 @@
-import React from 'react';
+import React , { Fragment }from 'react';
 import './App.css';
-import FontStyles from "./styles/fontStyles"
+import Main from "./components/Main"
+import Portflio from './components/Protfolio';
+import {AppWrapper} from "./styles/styles"
 
 function App() {
   return (
-    <div className="App">
-    </div>
-  );
+    <AppWrapper>
+      <Main/>
+      <Portflio/>
+    </AppWrapper>
+
+  )
 }
 
 export default App;
